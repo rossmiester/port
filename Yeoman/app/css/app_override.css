@@ -1,0 +1,508 @@
+/** {
+  border: 1px solid red;
+}*/
+
+body {
+    margin-top: 2.8125rem;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  margin-top: 30px;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+#menu {
+  display: none;
+  background-color: #628160;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#menu a {
+  color: #FFFFF0;
+}
+
+#menu li a:hover {
+  background-color: #755C3B;
+}
+
+#menu ul li a {
+  border-bottom-color: #FFFFF0;
+}
+
+.right-small {
+  border-left-color: #FFFFF0;
+}
+
+/*.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+  opacity: 
+}*/
+
+.section {
+  position: relative;
+  top: 0px;
+}
+
+.tab-bar {
+  background-color: #628160;
+}
+
+.tab-bar a {
+  color: black;
+}
+
+.tab-bar-section a {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  color: #FFFFF0;
+}
+
+.tab-bar-section h1 {
+  text-align: left;
+}
+
+/* ///////////// HOME SECTION ///////////// */
+
+section#home {
+ /* background: url('../images/western-wall.jpg') no-repeat;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+  width: 100vw;
+  overflow: auto;
+  background: url('../images/wood-texture.png') repeat;
+  background-image: ;
+  background-position:;
+  background-repeat:;
+  background-size:;
+  background-color:black;
+  /*background-repeat: no-repeat;*/
+  /*background-size: contain;*/
+}
+
+.intro-text p:nth-child(3) {
+  display: none;
+}
+
+.intro-text {
+  padding: 0 40px 0 40px;
+}
+
+.intro-text h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 55px;
+  text-decoration: underline;
+  color: #FFFFF0;
+  margin-top: -65px;
+}
+
+.army-code-man {
+  height: 250px;
+  width: 251px;
+  /*float: right;*/
+  -o-filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.5));
+  -moz-filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.5));
+  -webkit-filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.5));
+}
+
+#home .button {
+  background-color: #628160;
+  display: inline-block;
+  width: 140px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px 0px 20px 0px;
+  -o-filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.5));
+  -moz-filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.5));
+  -webkit-filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.5));
+}
+
+#home a:hover {
+  background-color: #755C3B;
+}
+
+#home a:active {
+  background-color: #755C3B;
+}
+
+.th {
+  height: 300px;
+  width: 300px;
+}
+
+#home .columns {
+  text-align: center;
+}
+
+/* army man image box */
+#home .row:nth-child(1) .columns:nth-child(1) {
+  /*background-color:rgba(0, 0, 0, 0.5);*/
+  /*background-color: black;*/
+  margin-top:15px;
+  margin-top: 60px;
+}
+/* column - welcome text + paragraph box */
+#home .row:nth-child(1) .columns:nth-child(2) {
+  /*background-color:rgba(0, 0, 0, 0.5);*/
+  background-color:;
+  height:;
+  padding: 0px;
+  padding-bottom:;
+  color: #FFFFF0;
+  margin-top:;
+}
+
+/* column - left button group box */
+#home .row:nth-child(1) .columns:nth-child(3) {
+  background-color:;
+  height:;
+}
+
+/* column - right button group box */
+#home .row:nth-child(1) .columns:nth-child(4) {
+  background-color:;
+}
+
+#home .row {
+  background-color:rgba(0, 0, 0, 0.7);
+}
+
+#home h1 {
+  text-align: center;
+}
+
+/* ///////////// WORKS SECTION ///////////// */
+
+section#works {
+  background: black;
+  height: auto;
+  width: 100vw;
+  text-align: center;
+  background: url('../images/stripe.png');
+  background-repeat: repeat;
+  background-size: 130px;
+}
+
+.grow img {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  height: 230px;
+}
+
+.grow img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.pic { 
+  border: 10px double #755C3B; 
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px auto;
+  margin-top: 55px;
+}
+
+.grow a {
+  border: 0px;
+  width: 100%;
+}
+
+#works .row:nth-child(1) h1 {
+  color: #FFFFF0;
+  margin-top: 60px;
+}
+
+#works .row:nth-child(1) p {
+  color: #FFFFF0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-variant: small-caps;
+}
+
+/* ///////////// BADGES SECTION ///////////// */
+
+
+section#badges {
+  background: ;
+  height: auto;
+  width: 100vw; 
+  background: url('../images/stripe.png');
+  background-repeat: repeat;
+  background-size: 130px;
+}
+
+#badges .row:nth-child(1) h1 {
+  color: #FFFFF0;
+  font-size: 32pt;
+  margin-top: 60px;
+}
+
+.badges h1 {
+  margin-top: 55px;
+  font-size: 24pt;
+  text-align: left;
+  color: #755C3B;
+}
+
+.sm-badges-4 {
+  height: 50px;
+  width: 40px;
+}
+
+.out-of-10 {
+  color: #222;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #755C3B;
+}
+
+#badges .row:nth-child(1) p {
+  color: #FFFFF0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-variant: small-caps;
+}
+
+/*.badges .columns {
+  background-image: url('../images/badge.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-size: 210px 240px;
+  height: 240px;
+  width: ;
+  background-color:;
+}*/
+
+#badges .row:nth-child(1) .columns:nth-child(1) {
+  background-image: none;
+}
+
+#badges .columns:nth-child(1) {
+  width: ;
+  height: ;
+}
+
+#badges .row {
+  height:;
+  background-color:;
+}
+
+
+/* ///////////// ABOUT SECTION ///////////// */
+
+
+section#about {
+  background: white;
+  height: auto;
+  width: 100vw;
+  background: url('../images/stripe.png');
+  background-repeat: repeat;
+  background-size: 130px;
+}
+
+#about .row:nth-child(1) h1 {
+  color: #FFFFF0;
+  font-size: 32pt;
+  margin-top: 60px;
+}
+
+#about .row:nth-child(2) .columns {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.circle-image-1 {
+  border: 5px solid #755C3B;
+  background: url('../images/snake-and-I.jpg') no-repeat;
+  background-size: 280px;
+  background-position: -40px 0px;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  margin: 0px auto;
+}
+
+.year-born {
+  font: ;
+  color: #755C3B;
+  position: relative;
+  right: 70px;
+  top: 70px;
+  font-family: 'Lobster', cursive;
+  font-size: 16pt;
+  margin-left: 5px;
+}
+
+#about .row:nth-child(1) p {
+  color: #FFFFF0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-variant: small-caps;
+}
+
+/*.snake-and-i {
+  margin-top: 20px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}*/
+
+/* ///////////// CONTACT SECTION ///////////// */
+
+section#contact {
+  background: red;
+  height: auto;
+  width: 100vw;
+  background: url('../images/stripe.png');
+  background-repeat: repeat;
+  background-size: 130px;
+}
+
+.phone-number {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#contact .row:nth-child(1) h1 {
+  color: #FFFFF0;
+  font-size: 32pt;
+}
+
+#contact .row:nth-child(3) form {
+  padding: 20px;
+}
+
+.submit-btn {
+  text-align: center;
+  -o-filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.5));
+  -moz-filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.5));
+  -webkit-filter: drop-shadow(9px 9px 9px rgba(0,0,0,0.5));
+}
+
+.submit-btn button {
+  background-color: #628160;
+}
+
+.submit-btn button:hover {
+  background-color: #755C3B;
+}
+
+.social {
+  text-align: center;
+}
+
+.row label {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ///////////// TOP BAR ///////////// */
+
+.top-bar {
+  margin-top: 0px;
+}
+
+.top-bar-section {
+  margin-bottom: 0px;
+}
+
+/* ///////////// MEDIA QUERY ///////////// */
+
+@media screen and (min-width: 641px) {
+  section#home {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .intro-text p:nth-child(3) {
+    display: block;
+  }
+
+  .intro-text p:nth-child(2) {
+    visibility: hidden;
+    display: none;
+  }
+
+  section#works {
+  }
+
+  .pic {
+    height: 100%;
+    width: 100%;
+  }
+
+  section#badges {
+    height: auto;
+    width: 100vw;
+    background:;
+  }
+
+  #badges .row:nth-child(1) h1 {
+    font-size: 60px;
+  }
+
+	section#about {
+		height: 100vh;
+		width: 100vw;
+	}
+
+	section#contact {
+		height: 100vh;
+		width: 100vw;
+	}
+
+  #home .row:nth-child(1) {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+    .army-code-man {
+      height: 350px;
+      width: 351px;
+    }
+  }
+
+/* ///////////// RIGHT-OFF-CANVAS-MENU ///////////// */
+
+
+.fixed, .right-off-canvas-menu {
+    z-index: 1003;
+}
+.move-left .right-off-canvas-menu {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    right: 0;
+}
+.right-off-canvas-menu {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    left: 100%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-top: 45px;
+}
+.move-left>.inner-wrap {
+    -webkit-transform: none;
+    transform: none;
+}
+.move-left a.exit-off-canvas {
+    -webkit-transition: none;
+    transition: none;
+}
+
+.off-canvas-wrap.move-right, .off-canvas-wrap.move-left {
+    min-height: 0;
+}
