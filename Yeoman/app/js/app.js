@@ -25,6 +25,37 @@ var app = (function(document, $) {
 
 ////////////    JQUERY     ///////////////////////////////////
 
+$.fn.moveIt = function(){
+  var $window = $(window);
+  var instances = [];
+  
+  $(this).each(function(){
+    instances.push(new moveItItem($(this)));
+  });
+  
+  window.onscroll = function(){
+    var scrollTop = $window.scrollTop();
+    instances.forEach(function(inst){
+      inst.update(scrollTop);
+    });
+  }
+}
+
+var moveItItem = function(el){
+  this.el = $(el);
+  this.speed = parseInt(this.el.attr('data-scroll-speed'));
+};
+
+moveItItem.prototype.update = function(scrollTop){
+  var pos = scrollTop / this.speed;
+  this.el.css('transform', 'translateY(' + -pos + 'px)');
+};
+
+$(function(){
+  $('[data-scroll-speed]').moveIt();
+});
+
+
 // toggle menu open/close
 $(".right-small a").click(function() {
     $("#menu").toggle();
@@ -34,6 +65,14 @@ $(".right-small a").click(function() {
 $(".right-off-canvas-menu").click(function() {
     $("#menu").hide();
 });
+
+$(window).scroll(function(){
+    $(".boat").css("opacity", 1 - $(window).scrollTop() / 100);
+  });
+
+// $(window).scroll(function() {
+//     $(".boat").css("opacity", .5);
+// });
 
 
 //creates a smooth scroll animation when the top bar nav anchor is clicked - scrolls down to link section on page
